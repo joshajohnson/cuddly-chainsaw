@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "RIGHT HALF"
 Date "2020-01-09"
 Rev "0.1"
@@ -44,10 +44,8 @@ F 3 "" H 4300 7400 50  0001 C CNN
 $EndComp
 Text Notes 4000 7000 0    100  ~ 0
 BUZZ BUZZ
-Text Label 4050 7150 0    50   ~ 0
+Text Label 3650 7150 0    50   ~ 0
 PIEZO
-Wire Wire Line
-	4050 7150 4350 7150
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 5E18980C
@@ -538,7 +536,7 @@ Wire Wire Line
 	9800 5500 9300 5500
 Wire Wire Line
 	9300 5400 9800 5400
-Text Label 8550 6250 0    50   ~ 0
+Text Label 8800 6150 0    50   ~ 0
 COL_9
 $Sheet
 S 9800 4750 750  1650
@@ -583,41 +581,41 @@ Text Label 9300 4950 0    50   ~ 0
 USB_D+
 Text Notes 9800 4600 0    100  ~ 0
 Keyboard Brain
-Text Label 8050 5850 0    50   ~ 0
+Text Label 8300 5750 0    50   ~ 0
 ROW_1
-Text Label 8050 5950 0    50   ~ 0
+Text Label 8300 5850 0    50   ~ 0
 ROW_2
-Text Label 8050 6050 0    50   ~ 0
+Text Label 8300 5950 0    50   ~ 0
 ROW_3
-Text Label 8050 6150 0    50   ~ 0
+Text Label 8300 6050 0    50   ~ 0
 ROW_4
-Text Label 8050 6250 0    50   ~ 0
+Text Label 8300 6150 0    50   ~ 0
 ROW_5
-Text Label 8550 5450 0    50   ~ 0
+Text Label 8800 5350 0    50   ~ 0
 COL_1
-Text Label 8550 5550 0    50   ~ 0
+Text Label 8800 5450 0    50   ~ 0
 COL_2
-Text Label 8550 5650 0    50   ~ 0
+Text Label 8800 5550 0    50   ~ 0
 COL_3
-Text Label 8550 5750 0    50   ~ 0
+Text Label 8800 5650 0    50   ~ 0
 COL_4
-Text Label 8550 5850 0    50   ~ 0
+Text Label 8800 5750 0    50   ~ 0
 COL_5
-Text Label 8550 5950 0    50   ~ 0
+Text Label 8800 5850 0    50   ~ 0
 COL_6
-Text Label 8550 6050 0    50   ~ 0
+Text Label 8800 5950 0    50   ~ 0
 COL_7
-Text Label 8550 6150 0    50   ~ 0
+Text Label 8800 6050 0    50   ~ 0
 COL_8
 Text Label 9300 5200 0    50   ~ 0
 SCL_SERIAL
-Text Label 8050 5450 0    50   ~ 0
-LED_DAT
-Text Label 8050 5550 0    50   ~ 0
+Text Label 8300 5350 0    50   ~ 0
+LED_KEYS
+Text Label 8300 5450 0    50   ~ 0
 PIEZO
-Text Label 8050 5650 0    50   ~ 0
+Text Label 8300 5550 0    50   ~ 0
 ENC_A
-Text Label 8050 5750 0    50   ~ 0
+Text Label 8300 5650 0    50   ~ 0
 ENC_B
 Wire Wire Line
 	9300 5200 9800 5200
@@ -886,7 +884,7 @@ U 1 1 5EB4BF8E
 P 8100 4550
 F 0 "SW37" H 8050 5000 50  0000 C CNN
 F 1 "MX_RGB" H 8100 4450 50  0000 C CNN
-F 2 "josh-buttons-switches:MX_KEYSWITCH_RGB_2.5U" H 8100 4750 50  0001 C CNN
+F 2 "josh-buttons-switches:MX_KEYSWITCH_RGB_2.5U_REV_STABS" H 8100 4750 50  0001 C CNN
 F 3 "~" H 8100 4750 50  0001 C CNN
 F 4 "DNP" H 8100 4550 50  0001 C CNN "DNP"
 	1    8100 4550
@@ -2582,8 +2580,6 @@ Text Label 600  1500 0    50   ~ 0
 ENC_B
 Text Label 600  1300 0    50   ~ 0
 ENC_A
-Text Label 600  1200 0    50   ~ 0
-LED_DAT
 Wire Wire Line
 	600  1200 1150 1200
 Wire Wire Line
@@ -3480,4 +3476,36 @@ Wire Wire Line
 	9750 3050 9750 2300
 Connection ~ 9750 3050
 Connection ~ 9750 2300
+Text Label 8300 5250 0    50   ~ 0
+LED_UNDER
+Text Label 600  1200 0    50   ~ 0
+LED_KEYS
+$Comp
+L Device:R R9
+U 1 1 5E28FCCD
+P 4150 7150
+F 0 "R9" V 4050 7150 50  0000 C CNN
+F 1 "22R" V 4150 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 7150 50  0001 C CNN
+F 3 "~" H 4150 7150 50  0001 C CNN
+	1    4150 7150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 7150 4350 7150
+Wire Wire Line
+	3650 7150 4000 7150
+$Sheet
+S 7350 6100 550  200 
+U 5E330F76
+F0 "Leds" 100
+F1 "LEDs.sch" 100
+F2 "DIN" I L 7350 6200 50 
+$EndSheet
+Text Label 7300 6200 2    50   ~ 0
+LED_UNDER
+Wire Wire Line
+	7300 6200 7350 6200
+Text Notes 7250 5900 0    100  ~ 0
+Underglow
 $EndSCHEMATC

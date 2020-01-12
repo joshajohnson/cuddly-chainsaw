@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "LEFT HALF"
 Date "2020-01-09"
 Rev "0.1"
@@ -46,22 +46,6 @@ F26 "PF5" B R 6600 2350 50
 F27 "PF6" B R 6600 2450 50 
 F28 "PF7" B R 6600 2550 50 
 $EndSheet
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
-U 1 1 5E18980C
-P 1050 2050
-AR Path="/5E16A0F8/5E18980C" Ref="J?"  Part="1" 
-AR Path="/5E18980C" Ref="J1"  Part="1" 
-F 0 "J1" H 700 2900 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1157 2826 50  0000 C CNN
-F 2 "josh-connectors:USB_C_U262-161N-4BVC11" H 1200 2050 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 2050 50  0001 C CNN
-F 4 "NA" H 1050 2050 50  0001 C CNN "Digikey"
-F 5 "C319148" H 1050 2050 50  0001 C CNN "LCSC"
-F 6 "U262-161N-4BVC11" H 1050 2050 50  0001 C CNN "MPN"
-	1    1050 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	750  2950 750  3000
 Wire Wire Line
@@ -69,14 +53,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5E189814
-P 800 2900
+P 900 3050
 AR Path="/5E16A0F8/5E189814" Ref="#PWR?"  Part="1" 
 AR Path="/5E189814" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 800 2650 50  0001 C CNN
-F 1 "GND" H 805 2727 50  0000 C CNN
-F 2 "" H 800 2900 50  0001 C CNN
-F 3 "" H 800 2900 50  0001 C CNN
-	1    800  2900
+F 0 "#PWR0101" H 900 2800 50  0001 C CNN
+F 1 "GND" H 905 2877 50  0000 C CNN
+F 2 "" H 900 3050 50  0001 C CNN
+F 3 "" H 900 3050 50  0001 C CNN
+	1    900  3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -194,19 +178,19 @@ F 3 "~" H 4050 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 1300 4150 1250
+	4250 1450 4250 1400
 Connection ~ 4050 1450
 $Comp
 L power:+5V #PWR?
 U 1 1 5E189852
-P 4150 1250
+P 4250 1400
 AR Path="/5E16A0F8/5E189852" Ref="#PWR?"  Part="1" 
 AR Path="/5E189852" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 4150 1100 50  0001 C CNN
-F 1 "+5V" H 4165 1423 50  0000 C CNN
-F 2 "" H 4150 1250 50  0001 C CNN
-F 3 "" H 4150 1250 50  0001 C CNN
-	1    4150 1250
+F 0 "#PWR0104" H 4250 1250 50  0001 C CNN
+F 1 "+5V" H 4265 1573 50  0000 C CNN
+F 2 "" H 4250 1400 50  0001 C CNN
+F 3 "" H 4250 1400 50  0001 C CNN
+	1    4250 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1321,7 +1305,7 @@ U 1 1 5E384304
 P 6400 6950
 F 0 "SW25" H 6350 7400 50  0000 C CNN
 F 1 "MX_RGB" H 6400 6850 50  0000 C CNN
-F 2 "josh-buttons-switches:MX_KEYSWITCH_RGB_2.75U" H 6400 7150 50  0001 C CNN
+F 2 "josh-buttons-switches:MX_KEYSWITCH_RGB_2.75U_REV_STABS" H 6400 7150 50  0001 C CNN
 F 3 "~" H 6400 7150 50  0001 C CNN
 F 4 "DNP" H 6400 6950 50  0001 C CNN "DNP"
 	1    6400 6950
@@ -1899,41 +1883,41 @@ Text Notes 5650 750  0    100  ~ 0
 Keyboard Brain
 Text Notes 4750 3050 0    100  ~ 0
 Key Switch Matrix
-Text Label 4950 900  0    50   ~ 0
+Text Label 5350 1650 0    50   ~ 0
 ROW_1
-Text Label 4950 1000 0    50   ~ 0
+Text Label 5350 1750 0    50   ~ 0
 ROW_2
-Text Label 4950 1100 0    50   ~ 0
+Text Label 7100 2450 2    50   ~ 0
 ROW_3
-Text Label 4950 1200 0    50   ~ 0
+Text Label 7100 2350 2    50   ~ 0
 ROW_4
-Text Label 4950 1300 0    50   ~ 0
+Text Label 5350 2500 0    50   ~ 0
 ROW_5
-Text Label 4950 1450 0    50   ~ 0
+Text Label 7100 2550 2    50   ~ 0
 COL_1
-Text Label 4950 1550 0    50   ~ 0
+Text Label 5350 1950 0    50   ~ 0
 COL_2
-Text Label 4950 1650 0    50   ~ 0
+Text Label 5350 1850 0    50   ~ 0
 COL_3
-Text Label 4950 1750 0    50   ~ 0
+Text Label 5350 2050 0    50   ~ 0
 COL_4
-Text Label 4950 1850 0    50   ~ 0
+Text Label 5350 2400 0    50   ~ 0
 COL_5
-Text Label 4950 1950 0    50   ~ 0
+Text Label 7100 1800 2    50   ~ 0
 COL_6
-Text Label 4950 2050 0    50   ~ 0
+Text Label 7100 1700 2    50   ~ 0
 COL_7
-Text Label 4950 2150 0    50   ~ 0
+Text Label 7100 1500 2    50   ~ 0
 COL_8
 Text Label 5350 1450 0    50   ~ 0
 SCL_SERIAL
-Text Label 4950 2500 0    50   ~ 0
-LED_DAT
-Text Label 4950 2600 0    50   ~ 0
+Text Label 5350 2250 0    50   ~ 0
+LED_KEYS
+Text Label 7100 1900 2    50   ~ 0
 PIEZO
-Text Label 4950 2700 0    50   ~ 0
+Text Label 7100 2250 2    50   ~ 0
 ENC_A
-Text Label 4950 2800 0    50   ~ 0
+Text Label 7100 2150 2    50   ~ 0
 ENC_B
 $Comp
 L Device:Buzzer BZ1
@@ -1966,10 +1950,8 @@ F 3 "" H 10500 6200 50  0001 C CNN
 $EndComp
 Text Notes 10250 5700 0    100  ~ 0
 BUZZ BUZZ
-Text Label 10250 5950 0    50   ~ 0
+Text Label 9850 5950 0    50   ~ 0
 PIEZO
-Wire Wire Line
-	10250 5950 10550 5950
 Wire Wire Line
 	1650 3800 1600 3800
 $Comp
@@ -1991,8 +1973,6 @@ Text Label 1100 3900 0    50   ~ 0
 ENC_B
 Text Label 1100 3700 0    50   ~ 0
 ENC_A
-Text Label 1100 3600 0    50   ~ 0
-LED_DAT
 Wire Wire Line
 	1100 3600 1650 3600
 Wire Wire Line
@@ -2959,4 +2939,88 @@ Wire Wire Line
 	2300 3500 2250 3500
 Wire Wire Line
 	1600 3500 1650 3500
+$Comp
+L Device:R R9
+U 1 1 5E1D56CD
+P 10350 5950
+F 0 "R9" V 10250 5950 50  0000 C CNN
+F 1 "22R" V 10350 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10280 5950 50  0001 C CNN
+F 3 "~" H 10350 5950 50  0001 C CNN
+	1    10350 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 5950 10200 5950
+Wire Wire Line
+	10500 5950 10550 5950
+$Sheet
+S 7450 1100 650  200 
+U 5E2A8B31
+F0 "LEDs" 100
+F1 "LEDs.sch" 100
+F2 "DIN" I L 7450 1200 50 
+$EndSheet
+Text Notes 7450 800  0    100  ~ 0
+Underglow
+Text Label 1100 3600 0    50   ~ 0
+LED_KEYS
+Text Label 7100 2050 2    50   ~ 0
+LED_UNDER
+Text Label 7000 1200 0    50   ~ 0
+LED_UNDER
+Wire Wire Line
+	7000 1200 7450 1200
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 5E18980C
+P 1050 2050
+AR Path="/5E16A0F8/5E18980C" Ref="J?"  Part="1" 
+AR Path="/5E18980C" Ref="J1"  Part="1" 
+F 0 "J1" H 700 2900 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1157 2826 50  0000 C CNN
+F 2 "josh-connectors:USB_C_U262-161N-4BVC11" H 1200 2050 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 2050 50  0001 C CNN
+F 4 "NA" H 1050 2050 50  0001 C CNN "Digikey"
+F 5 "C319148" H 1050 2050 50  0001 C CNN "LCSC"
+F 6 "U262-161N-4BVC11" H 1050 2050 50  0001 C CNN "MPN"
+	1    1050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1900 6600 1900
+Wire Wire Line
+	5350 2250 5850 2250
+Wire Wire Line
+	7100 2050 6600 2050
+Wire Wire Line
+	7100 2250 6600 2250
+Wire Wire Line
+	6600 2150 7100 2150
+Wire Wire Line
+	7100 2550 6600 2550
+Wire Wire Line
+	7100 2450 6600 2450
+Wire Wire Line
+	7100 2350 6600 2350
+Wire Wire Line
+	5350 2500 5850 2500
+Wire Wire Line
+	5350 1650 5850 1650
+Wire Wire Line
+	5350 1750 5850 1750
+Wire Wire Line
+	5350 1950 5850 1950
+Wire Wire Line
+	5350 2400 5850 2400
+Wire Wire Line
+	7100 1800 6600 1800
+Wire Wire Line
+	7100 1700 6600 1700
+Wire Wire Line
+	5350 2050 5850 2050
+Wire Wire Line
+	5350 1850 5850 1850
+Wire Wire Line
+	7100 1500 6600 1500
 $EndSCHEMATC

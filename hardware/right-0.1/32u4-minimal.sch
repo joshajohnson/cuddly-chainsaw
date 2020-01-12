@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev "0"
@@ -650,4 +650,59 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3900 4400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:AVR-ISP-6 J3
+U 1 1 5E3F772B
+P 6450 5550
+F 0 "J3" H 6200 6000 50  0000 R CNN
+F 1 "AVR-ISP-6" H 6800 6000 50  0000 R CNN
+F 2 "josh-connectors:AVR_Programmer_SMD" V 6200 5600 50  0001 C CNN
+F 3 " ~" H 5175 5000 50  0001 C CNN
+	1    6450 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5950 6350 6000
+$Comp
+L power:GND #PWR0209
+U 1 1 5E3FABE7
+P 6350 6000
+F 0 "#PWR0209" H 6350 5750 50  0001 C CNN
+F 1 "GND" H 6355 5827 50  0000 C CNN
+F 2 "" H 6350 6000 50  0001 C CNN
+F 3 "" H 6350 6000 50  0001 C CNN
+	1    6350 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5050 6350 5000
+$Comp
+L power:+5V #PWR0210
+U 1 1 5E3FD90D
+P 6350 5000
+F 0 "#PWR0210" H 6350 4850 50  0001 C CNN
+F 1 "+5V" H 6365 5173 50  0000 C CNN
+F 2 "" H 6350 5000 50  0001 C CNN
+F 3 "" H 6350 5000 50  0001 C CNN
+	1    6350 5000
+	1    0    0    -1  
+$EndComp
+Text Label 7150 5650 2    50   ~ 0
+nRST
+Wire Wire Line
+	7150 5650 6850 5650
+Text Notes 5800 4700 0    100  ~ 0
+Programming Header
+Text HLabel 7150 5350 2    50   BiDi ~ 0
+PB3
+Wire Wire Line
+	7150 5350 6850 5350
+Wire Wire Line
+	6850 5450 7150 5450
+Wire Wire Line
+	6850 5550 7150 5550
+Text HLabel 7150 5550 2    50   BiDi ~ 0
+PB1
+Text HLabel 7150 5450 2    50   BiDi ~ 0
+PB2
 $EndSCHEMATC
