@@ -536,7 +536,7 @@ Wire Wire Line
 	9800 5500 9300 5500
 Wire Wire Line
 	9300 5400 9800 5400
-Text Label 8800 6150 0    50   ~ 0
+Text Label 11050 4950 2    50   ~ 0
 COL_9
 $Sheet
 S 9800 4750 750  1650
@@ -581,41 +581,13 @@ Text Label 9300 4950 0    50   ~ 0
 USB_D+
 Text Notes 9800 4600 0    100  ~ 0
 Keyboard Brain
-Text Label 8300 5750 0    50   ~ 0
-ROW_1
-Text Label 8300 5850 0    50   ~ 0
-ROW_2
-Text Label 8300 5950 0    50   ~ 0
-ROW_3
-Text Label 8300 6050 0    50   ~ 0
-ROW_4
-Text Label 8300 6150 0    50   ~ 0
-ROW_5
-Text Label 8800 5350 0    50   ~ 0
-COL_1
-Text Label 8800 5450 0    50   ~ 0
-COL_2
-Text Label 8800 5550 0    50   ~ 0
-COL_3
-Text Label 8800 5650 0    50   ~ 0
-COL_4
-Text Label 8800 5750 0    50   ~ 0
-COL_5
-Text Label 8800 5850 0    50   ~ 0
-COL_6
-Text Label 8800 5950 0    50   ~ 0
-COL_7
-Text Label 8800 6050 0    50   ~ 0
-COL_8
 Text Label 9300 5200 0    50   ~ 0
 SCL_SERIAL
-Text Label 8300 5350 0    50   ~ 0
-LED_KEYS
-Text Label 8300 5450 0    50   ~ 0
+Text Label 11050 5650 2    50   ~ 0
 PIEZO
-Text Label 8300 5550 0    50   ~ 0
+Text Label 11050 6000 2    50   ~ 0
 ENC_A
-Text Label 8300 5650 0    50   ~ 0
+Text Label 11050 5900 2    50   ~ 0
 ENC_B
 Wire Wire Line
 	9300 5200 9800 5200
@@ -3461,7 +3433,7 @@ Wire Wire Line
 	9750 3050 9750 2300
 Connection ~ 9750 3050
 Connection ~ 9750 2300
-Text Label 8300 5250 0    50   ~ 0
+Text Label 11050 5800 2    50   ~ 0
 LED_UNDER
 Text Label 600  1200 0    50   ~ 0
 LED_KEYS
@@ -3504,4 +3476,32 @@ F 3 "~" H 1450 1710 50  0001 C CNN
 	1    1450 1300
 	1    0    0    -1  
 $EndComp
+Text Label 9300 6000 0    50   ~ 0
+LED_KEYS
+Text Label 9300 6250 0    50   ~ 0
+ROW_4
+Text Label 11050 6300 2    50   ~ 0
+ROW_3
+Text Label 9300 5900 0    50   ~ 0
+COL_6
+Text Label 11050 5350 2    50   ~ 0
+COL_7
+Text Label 11050 5450 2    50   ~ 0
+COL_8
+Text Label 9300 6150 0    50   ~ 0
+ROW_5
+Text Label 9300 5800 0    50   ~ 0
+COL_5
+Text Label 9300 5600 0    50   ~ 0
+COL_4
+Text Label 9300 5400 0    50   ~ 0
+COL_1
+Text Label 9300 5500 0    50   ~ 0
+COL_2
+Text Label 9300 5700 0    50   ~ 0
+COL_3
+Text Label 11050 6200 2    50   ~ 0
+ROW_2
+Text Label 11050 6100 2    50   ~ 0
+ROW_1
 $EndSCHEMATC
