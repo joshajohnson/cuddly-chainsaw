@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -496,7 +496,7 @@
   )
 
   (module MountingHole:MountingHole_3.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5E1FD73A)
-    (at 212.1 123.2)
+    (at 212.1 123)
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
     (attr virtual)
@@ -515,7 +515,7 @@
   )
 
   (module MountingHole:MountingHole_3.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5E1FCBC5)
-    (at 174.3 65.7)
+    (at 174.3 65)
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
     (attr virtual)
@@ -552,7 +552,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_3.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5E1FCBB5)
+  (module MountingHole:MountingHole_3.7mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5E210194)
     (at 98 65)
     (descr "Mounting Hole 3.7mm, no annular")
     (tags "mounting hole 3.7mm no annular")
@@ -7169,8 +7169,6 @@
   (gr_arc (start 51.5 143) (end 49.5 143) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5E1A425E))
   (gr_line (start 51.5 145) (end 229.4 144.9) (layer Edge.Cuts) (width 0.05))
 
-  (segment (start 212.3375 86.4) (end 213.2 86.4) (width 0.25) (layer B.Cu) (net 77))
-  (segment (start 213.2 86.4) (end 213.9 87.1) (width 0.25) (layer B.Cu) (net 77))
   (via (at 209 84) (size 0.5) (drill 0.25) (layers F.Cu B.Cu) (net 1))
   (via (at 206.7 86.2) (size 0.5) (drill 0.25) (layers F.Cu B.Cu) (net 1))
   (via (at 211.3 86.2) (size 0.5) (drill 0.25) (layers F.Cu B.Cu) (net 1))
@@ -8486,6 +8484,8 @@
   (segment (start 161.94125 61.66) (end 156.46 61.66) (width 0.25) (layer B.Cu) (net 76))
   (segment (start 155.1 60.3) (end 148.39125 60.3) (width 0.25) (layer B.Cu) (net 76))
   (segment (start 156.46 61.66) (end 155.1 60.3) (width 0.25) (layer B.Cu) (net 76))
+  (segment (start 212.3375 86.4) (end 213.2 86.4) (width 0.25) (layer B.Cu) (net 77))
+  (segment (start 213.2 86.4) (end 213.9 87.1) (width 0.25) (layer B.Cu) (net 77))
   (segment (start 173.1 111.36375) (end 172.6775 110.94125) (width 0.25) (layer F.Cu) (net 77))
   (segment (start 173.1 115.3) (end 173.1 111.36375) (width 0.25) (layer F.Cu) (net 77))
   (segment (start 172.3 116.1) (end 173.1 115.3) (width 0.25) (layer F.Cu) (net 77))
