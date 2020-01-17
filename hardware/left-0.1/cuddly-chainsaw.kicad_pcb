@@ -229,11 +229,8 @@
     (add_net +5V)
     (add_net "/32u4 Microcontroller/D+")
     (add_net "/32u4 Microcontroller/D-")
-    (add_net "/32u4 Microcontroller/PB0")
     (add_net "/32u4 Microcontroller/PB1")
     (add_net "/32u4 Microcontroller/PB2")
-    (add_net "/32u4 Microcontroller/PB4")
-    (add_net "/32u4 Microcontroller/PD7")
     (add_net "/32u4 Microcontroller/nRST")
     (add_net /COL_1)
     (add_net /COL_2)
@@ -306,7 +303,6 @@
     (add_net "Net-(D43-Pad2)")
     (add_net "Net-(D44-Pad2)")
     (add_net "Net-(D45-Pad2)")
-    (add_net "Net-(D46-Pad2)")
     (add_net "Net-(D5-Pad2)")
     (add_net "Net-(D6-Pad2)")
     (add_net "Net-(D7-Pad2)")
@@ -316,13 +312,7 @@
     (add_net "Net-(J1-PadA5)")
     (add_net "Net-(J1-PadA6)")
     (add_net "Net-(J1-PadA7)")
-    (add_net "Net-(J1-PadA8)")
     (add_net "Net-(J1-PadB5)")
-    (add_net "Net-(J1-PadB8)")
-    (add_net "Net-(J2-PadA5)")
-    (add_net "Net-(J2-PadA8)")
-    (add_net "Net-(J2-PadB5)")
-    (add_net "Net-(J2-PadB8)")
     (add_net "Net-(SW1-Pad2)")
     (add_net "Net-(SW10-Pad3)")
     (add_net "Net-(SW10-Pad4)")
@@ -345,7 +335,6 @@
     (add_net "Net-(SW22-Pad4)")
     (add_net "Net-(SW23-Pad4)")
     (add_net "Net-(SW24-Pad4)")
-    (add_net "Net-(SW25-Pad4)")
     (add_net "Net-(SW26-Pad4)")
     (add_net "Net-(SW27-Pad4)")
     (add_net "Net-(SW28-Pad4)")
@@ -360,7 +349,7 @@
     (at 48.05 53.45 270)
     (descr "AVR Programmer 6 pogo pin 2.54 mm spacing")
     (path /5E16A0F8/5E3F772B)
-    (fp_text reference J3 (at -4.64 0 180) (layer B.SilkS)
+    (fp_text reference J3 (at -4.64 0 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value AVR-ISP-6 (at 0 0 90) (layer B.Fab)
@@ -393,7 +382,7 @@
     (at 52.55 54.1 270)
     (descr "CK Components small tactile switch")
     (path /5E16A0F8/5E1E84A7)
-    (fp_text reference SW35 (at 0.01 2.53 90) (layer B.SilkS)
+    (fp_text reference SW35 (at 0.01 2.53 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SW_Push (at 0.08 -2.78 90) (layer B.Fab)
@@ -421,7 +410,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E46209F)
-    (fp_text reference SW34 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW34 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -480,7 +469,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E462018)
-    (fp_text reference SW33 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW33 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -539,7 +528,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E462008)
-    (fp_text reference SW32 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW32 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -598,7 +587,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E461FF6)
-    (fp_text reference SW31 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW31 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -657,7 +646,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E462041)
-    (fp_text reference SW30 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW30 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -716,7 +705,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E461FBA)
-    (fp_text reference SW29 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW29 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -775,7 +764,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E461FAA)
-    (fp_text reference SW28 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW28 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -834,7 +823,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E461F98)
-    (fp_text reference SW27 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW27 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -893,7 +882,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E461FE3)
-    (fp_text reference SW26 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW26 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -952,7 +941,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E384304)
-    (fp_text reference SW25 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW25 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1019,7 +1008,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E3842F4)
-    (fp_text reference SW24 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW24 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1078,7 +1067,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E3842E4)
-    (fp_text reference SW23 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW23 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1137,7 +1126,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E3842D2)
-    (fp_text reference SW22 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW22 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1196,7 +1185,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E38431D)
-    (fp_text reference SW21 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW21 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1255,7 +1244,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E37AC3A)
-    (fp_text reference SW20 (at -7 -7.2) (layer F.SilkS)
+    (fp_text reference SW20 (at -7 -7.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1314,7 +1303,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E37AC2A)
-    (fp_text reference SW19 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW19 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1373,7 +1362,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E37AC1A)
-    (fp_text reference SW18 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW18 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1432,7 +1421,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E37AC08)
-    (fp_text reference SW17 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW17 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1491,7 +1480,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E37AC53)
-    (fp_text reference SW16 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW16 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1550,7 +1539,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E35453D)
-    (fp_text reference SW15 (at -7 -7.2) (layer F.SilkS)
+    (fp_text reference SW15 (at -7 -7.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1609,7 +1598,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E35452D)
-    (fp_text reference SW14 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW14 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1668,7 +1657,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E35451D)
-    (fp_text reference SW13 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW13 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1727,7 +1716,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E35450B)
-    (fp_text reference SW12 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW12 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1786,7 +1775,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E354556)
-    (fp_text reference SW11 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW11 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1845,7 +1834,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E30F845)
-    (fp_text reference SW10 (at -7 -7.2) (layer F.SilkS)
+    (fp_text reference SW10 (at -7 -7.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1904,7 +1893,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E30F835)
-    (fp_text reference SW9 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW9 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -1973,7 +1962,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E30F825)
-    (fp_text reference SW8 (at -11.3 -7.2) (layer F.SilkS)
+    (fp_text reference SW8 (at -11.3 -7.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2032,7 +2021,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E30F813)
-    (fp_text reference SW7 (at -9.3 -7.3) (layer F.SilkS)
+    (fp_text reference SW7 (at -9.3 -7.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 7.8) (layer F.Fab)
@@ -2091,7 +2080,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E3423A6)
-    (fp_text reference SW6 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW6 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2150,7 +2139,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E2EDECA)
-    (fp_text reference SW5 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW5 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2209,7 +2198,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E2EBEB4)
-    (fp_text reference SW4 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW4 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2268,7 +2257,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E2E9F19)
-    (fp_text reference SW3 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW3 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2327,7 +2316,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E2BA72B)
-    (fp_text reference SW2 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW2 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2386,7 +2375,7 @@
     (descr "Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
     (tags "rotary encoder")
     (path /5E2B9951)
-    (fp_text reference SW1 (at -5 -7.8) (layer F.SilkS)
+    (fp_text reference SW1 (at -5 -7.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Encoder_MX_RGB (at 0 10.3) (layer F.Fab)
@@ -2461,11 +2450,11 @@
     (fp_text value MountingHole_3.7mm (at 0 4.7) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 3.95 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
     (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 3.95 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers *.Cu *.Mask))
   )
 
@@ -2480,11 +2469,11 @@
     (fp_text value MountingHole_3.7mm (at 0 4.7) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 3.95 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
     (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 3.95 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers *.Cu *.Mask))
   )
 
@@ -2518,11 +2507,11 @@
     (fp_text value MountingHole_3.7mm (at 0 4.7) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_circle (center 0 0) (end 3.95 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
     (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 3.95 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 3.7 3.7) (drill 3.7) (layers *.Cu *.Mask))
   )
 
@@ -4269,10 +4258,10 @@
     )
   )
 
-  (module josh-oscillators:Crystal_SMD_3225-4Pin_3.2x2.5mm (layer B.Cu) (tedit 5E153926) (tstamp 5E1755DD)
+  (module josh-oscillators:Crystal_SMD_3225-4Pin_3.2x2.5mm (layer B.Cu) (tedit 5E213993) (tstamp 5E1755DD)
     (at 55.3 65.1 90)
     (descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
-    (tags "SMD SMT crystal")
+    (tags "SMD SMT crystal reduced paste")
     (path /5E16A0F8/5E17D253)
     (attr smd)
     (fp_text reference Y1 (at 0 2.45 90) (layer B.SilkS) hide
@@ -4641,7 +4630,7 @@
     )
   )
 
-  (module josh-connectors:USB_C_U262-161N-4BVC11 (layer B.Cu) (tedit 5E1516D6) (tstamp 5E1750FF)
+  (module josh-connectors:USB_C_U262-161N-4BVC11 (layer B.Cu) (tedit 5E214216) (tstamp 5E1750FF)
     (at 161.6 30.75)
     (descr "USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf")
     (tags "USB C Type-C Receptacle SMD")
@@ -4708,14 +4697,14 @@
       (net 1 GND))
     (pad S1 thru_hole oval (at -4.32 -1.87) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask B.Paste)
       (net 1 GND))
-    (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/GT-USB-7010.step
+    (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/U262-161N-4BVC11.step
       (offset (xyz 0 -1.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module josh-connectors:USB_C_U262-161N-4BVC11 (layer B.Cu) (tedit 5E1516D6) (tstamp 5E1B0A36)
+  (module josh-connectors:USB_C_U262-161N-4BVC11 (layer B.Cu) (tedit 5E214216) (tstamp 5E1B0A36)
     (at 45.25 30.75)
     (descr "USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf")
     (tags "USB C Type-C Receptacle SMD")
@@ -4784,14 +4773,14 @@
       (net 1 GND))
     (pad S1 thru_hole oval (at -4.32 -1.87) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask B.Paste)
       (net 1 GND))
-    (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/GT-USB-7010.step
+    (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/U262-161N-4BVC11.step
       (offset (xyz 0 -1.25 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module josh-passives-smt:Fuse_0805_2012Metric (layer B.Cu) (tedit 5D134EEB) (tstamp 5E1750AF)
+  (module josh-passives-smt:Fuse_0805_2012Metric (layer B.Cu) (tedit 5E213A01) (tstamp 5E1750AF)
     (at 41.8 37.1375 90)
     (descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4820,10 +4809,10 @@
       (net 48 "Net-(F1-Pad2)"))
     (pad 1 smd roundrect (at -0.9375 0 90) (size 0.975 1.4) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 22 VBUS))
-    (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-passives-smt/polyfuse.stp
-      (offset (xyz 0 0 0.4))
-      (scale (xyz 0.7 0.7 0.7))
-      (rotate (xyz 90 0 90))
+    (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-passives-smt/06030-ptc.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1.4 1.4 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
